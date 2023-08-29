@@ -11,10 +11,16 @@ public class D extends C{
     @Override
     public boolean equals(Object o) {
         // assume this method is implemented for you
+	
+	// TODO: Temporary return
+	return true;
     }
 
     @Override
     public int hashCode() {
         // assume this method is implemented for you
+	
+	//TODO: Tempporary return
+	return 1;
     }
 }

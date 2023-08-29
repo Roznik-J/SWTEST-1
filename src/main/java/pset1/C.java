@@ -10,10 +10,12 @@ public class C {
     @Override
     public boolean equals(Object o) {
         // assume this method is implemented for you
+	return false;
     }
 
     @Override
     public int hashCode() {
         // assume this method is implemented for you
+	return 1;
     }
 }
