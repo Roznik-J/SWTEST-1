@@ -32,6 +32,10 @@ public class SLList {
         //                  list; the rest of the list is unmodified
 
         // your code goes here
+	SLList.Node lcNewNode = new SLList.Node();
+	lcNewNode.elem = e;
+	lcNewNode.next = header;
+	this.header = lcNewNode;
 
     }
 }
