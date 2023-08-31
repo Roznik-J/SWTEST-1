@@ -10,7 +10,12 @@ public class C {
     @Override
     public boolean equals(Object o) {
         // assume this method is implemented for you
-	return false;
+	if(this == o){ return true;}
+        if(!super.equals(o)){return false;}
+        if(getClass() != o.getClass()){return false;}
+        C Cobj = (C) o;
+        if( f != Cobj.f){return false;}
+	return true;
     }
 
     @Override

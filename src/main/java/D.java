@@ -13,6 +13,11 @@ public class D extends C{
         // assume this method is implemented for you
 	
 	// TODO: Temporary return
+	if(this == o){ return true;}
+	if(!super.equals(o)){return false;}
+	if(getClass() != o.getClass()){return false;}
+	D Dobj = (D) o;
+	if( g != Dobj.g){return false;}
 	return true;
     }
 

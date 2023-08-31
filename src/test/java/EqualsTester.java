@@ -12,6 +12,15 @@ public class EqualsTester {
         assertFalse(new Object().equals(null));
     }
 
+    @Test public void t1() {
+        assertFalse(new C(1).equals(null));
+    }
+
+    @Test public void t2() {
+        D d = new D(0,1);
+        assertFalse(new D(0,0).equals(null));
+    }
+
     // your test methods for P1 go here
 
     /*
